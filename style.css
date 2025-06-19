@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 8%);
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    flex-grow: 1;
+}
+.profile img{
+    margin-top: 3em;
+    height: 5em;
+    width: 5em;
+    border-radius: 10em;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.social a{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight:600 ;
+    color:hsl(0, 0%, 100%);
+    padding: 1em;
+    background-color: hsl(0, 0%, 20%);
+    margin: 0.6em;
+    text-align: center;
+    border-radius: 1em;
+    width: 70%;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text .name{
+    margin-top: 1em;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+.text .place{
+    padding-top: 0.5em;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+}
+.text .hobby{
+    margin-top: 1.5em;
+    font-size: 1em;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.social a:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.3s;
+}
+.attribution{
+    color: white;
+    font-family: "Inter",sans-serif;
+}
+.attribution a{
+    text-decoration: none;
+    color: white;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.center{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
