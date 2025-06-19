@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/DevAkshat21/blog-preview-card-main)
-- Live Site URL: [Live Site](https://devakshat21.github.io/blog-preview-card-main/)
+- Solution URL: [Github Repo]((https://github.com/DevAkshat21/social-links-profile-main))
+- Live Site URL: [Live Site]((https://devakshat21.github.io/social-links-profile-main/))
 
 ## My process
 
